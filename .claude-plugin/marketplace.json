@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "company-context",
+  "description": "company-context.md - a business-context file for AI tools and agents, built through a guided interview. English and Polish.",
+  "owner": {
+    "name": "30Elevate",
+    "url": "https://30elevate.com"
+  },
+  "plugins": [
+    {
+      "name": "company-context",
+      "displayName": "company-context.md",
+      "source": "./",
+      "description": "Interviews the business owner one question at a time and builds company-context.md: what the business does, the facts the AI may use, how it talks, its boundaries and the expected output. Ready-made templates and assistant roles included.",
+      "author": {
+        "name": "30Elevate",
+        "url": "https://30elevate.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Secrets - never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+**/credentials*
+**/*token*
+
+# Local agent / editor config
+.claude/
+CLAUDE.md.local
+
+# A user's own filled-in context file - never commit here
+moja-firma.md
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local / scratch
+*.local
+scratch/
+tmp/
