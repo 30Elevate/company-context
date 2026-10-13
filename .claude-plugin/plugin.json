@@ -9,6 +9,8 @@
   },
   "homepage": "https://github.com/30Elevate/company-context",
   "repository": "https://github.com/30Elevate/company-context",
+  "privacyPolicyUrl": "https://30elevate.com/en/privacy-policy",
+  "supportUrl": "https://github.com/30Elevate/company-context/issues",
   "license": "MIT",
   "keywords": [
     "business-context",
